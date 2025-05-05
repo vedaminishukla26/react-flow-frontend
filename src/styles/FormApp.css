@@ -1,0 +1,71 @@
+.screen {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f9f9f9;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    padding: 0 16px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  }
+
+  .header-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .title {
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 0;
+  }
+  
+  .pencil {
+    margin-left: 8px;
+    font-size: 1rem;
+    padding-top: 6px;
+    display: flex;
+  }
+  
+  .subtitle {
+    margin: 4px 0 0;
+    font-size: 0.875rem;
+    color: #666;
+  }
+  
+  .save-button {
+    background-color: #0066ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
+  .save-button:hover {
+    background-color: #0051cc;
+  }
+
+  .save-button .down-arrow {
+    margin-left: 6px;
+    margin-top: 0;
+    padding-top: 0;
+    vertical-align: top;
+  }
+  
+  .save-button .rocket {
+    margin-right: 6px;
+    margin-top: 0;
+    padding-top: 0;
+    vertical-align: top;
+  }
